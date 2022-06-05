@@ -15,12 +15,17 @@ double CheckingForCorrectnes(string str)
 void IntersectionPoint(double a1, double b1, double a2, double b2)
 {
     if (a1 == a2)
-        Console.WriteLine($"Прямые y={a1}x+{b1} и y={a2}x+{b2} параллельны и не пересекаются!!!");
+    {
+        if (b2 == b1)
+            Console.WriteLine($"Прямые y={a1}x+{b1} и y={a2}x+{b2} полностью совпадают и имеют бесконечное количество общих точек!!!");
+        else
+            Console.WriteLine($"Прямые y={a1}x+{b1} и y={a2}x+{b2} параллельны и не пересекаются!!!");
+    }
     else
     {
         double x = (b2 - b1) / (a1 - a2);
         double y = a1 * x + b1;
-        Console.WriteLine($"Точка пересечения прямых y={a1}x+{b1} и y={a2}x+{b2}: ({x},{y}) ");
+        Console.WriteLine($"Точка пересечения прямых y={a1}x+{b1} и y={a2}x+{b2}: ({x};{y}) ");
     }
 }
 double k1 = CheckingForCorrectnes("Введите коэффициент k1: ");

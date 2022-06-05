@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2\\Desktop\\Lesson 6\\Task43\\Task43.csproj": {}
+    "C:\\Users\\2\\Desktop\\Курсы\\Lesson 6\\Task43\\Task43.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2\\Desktop\\Lesson 6\\Task43\\Task43.csproj": {
+    "C:\\Users\\2\\Desktop\\Курсы\\Lesson 6\\Task43\\Task43.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2\\Desktop\\Lesson 6\\Task43\\Task43.csproj",
+        "projectUniqueName": "C:\\Users\\2\\Desktop\\Курсы\\Lesson 6\\Task43\\Task43.csproj",
         "projectName": "Task43",
-        "projectPath": "C:\\Users\\2\\Desktop\\Lesson 6\\Task43\\Task43.csproj",
+        "projectPath": "C:\\Users\\2\\Desktop\\Курсы\\Lesson 6\\Task43\\Task43.csproj",
         "packagesPath": "C:\\Users\\2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2\\Desktop\\Lesson 6\\Task43\\obj\\",
+        "outputPath": "C:\\Users\\2\\Desktop\\Курсы\\Lesson 6\\Task43\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2\\AppData\\Roaming\\NuGet\\NuGet.Config"
